@@ -43,11 +43,7 @@ kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
   hard_wrap: true
 
-host:        127.0.0.1
-port:        4001
-#baseurl:     /
-#baseurl:     localhost:4001
-url:         http://localhost:4001
+url:  "http://zpcblog.github.io/"
 encoding: utf-8
 exclude: ['README.md', 'LICENSE']
 
