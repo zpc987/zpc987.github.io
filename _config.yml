@@ -43,7 +43,7 @@ kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
   hard_wrap: true
 
-url:  "http://zpcblog.github.io/"
+url:  "http://zpcblog.github.io"
 encoding: utf-8
 exclude: ['README.md', 'LICENSE']
 
