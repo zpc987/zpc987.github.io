@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: 我的心情日记
-description: 记录生活的点滴，让每天都充满回忆...
+description: 记录生活的点滴...
 
 timezone:    nil
 # Url is currently only used only for the RSS feed in feed.xml
@@ -43,7 +43,8 @@ kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
   hard_wrap: true
 
-url:  "http://zpcblog.github.io"
+  #url:  "http://zpcblog.github.io"
+url:  "http://zpc987.github.io"
 encoding: utf-8
 exclude: ['README.md', 'LICENSE']
 
