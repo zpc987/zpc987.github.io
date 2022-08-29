@@ -11,6 +11,9 @@
                     <div class="post-time">
                       <i class="fa fa-calendar-alt"></i>
                       <time>{{ page.date | date_to_string }}</time>
+                    {% if page.description %}
+                       <time>{{ page.description }}</time>
+                    {% endif %}
                     </div>
                     <ul>
                       {% for tag in page.tags %}
@@ -25,12 +28,7 @@
                     {{ content }}
                     {% include share.html %}
                   </div>
-                  {% if page.comments %}
-                  <div id="disqus_thread">
-                    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-                  </div>
-                  {% endif %}
+
                 </div>
               </div>
             </div>
@@ -39,9 +37,21 @@
             </div>
           </div>
         </div>
-        {% include disqus-comments.html %}
       </div>
-      {% include footer.html %}
+
+<div class="post-nav">
+  <div>
+    {% if page.previous.url %}
+    <a href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
+    {% endif %}
+  </div>
+  <div class="post-nav-next">
+    {% if page.next.url %}
+    <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
+    {% endif %}
+  </div>
+</div>
+
     </div>
   </body>
 </html>
