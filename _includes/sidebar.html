@@ -7,6 +7,17 @@
   </ul>
 </div>
 
+<div class="sidebar ">
+    {% if page.previous.url %}
+  <h2>last</h2>
+    <a href="{{page.previous.url}}">{{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+  <h2>next</h2>
+    <a href="{{page.next.url}}">{{page.next.title}}</a>
+    {% endif %}
+</div>
+
 <div class="sidebar">
   <h2>Tags</h2>
   <ul class="fa-ul">
