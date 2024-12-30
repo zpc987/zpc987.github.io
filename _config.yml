@@ -3,7 +3,7 @@
 name: 我的心情日记
 description: 记录生活的点滴...
 
-timezone:    nil
+timezone:   Asia/Shanghai 
 # Url is currently only used only for the RSS feed in feed.xml
 #url: http://streetturtle.github.io
 #url: http://localhost:4000
@@ -11,8 +11,8 @@ timezone:    nil
 # For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
 #baseurl: '/jekyll-clean-dark'
 
-social:
-  github: zpc987
+#social:
+#  github: zpc987
 #  stackoverflow: ''
 #  linkedin:
 #  instagram: ''
