@@ -69,3 +69,8 @@ respective owners:
 * js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
 * css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
 * js/jquery.min.js - [jquery](https://jquery.com)
+
+more information about jekyll
+=======
+* https://jekyllcn.com/docs/resources/
+* https://jekyllcodex.org/without-plugin/open-embed/
