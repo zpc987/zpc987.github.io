@@ -73,4 +73,5 @@ respective owners:
 more information about jekyll
 =======
 * https://jekyllcn.com/docs/resources/
-* https://jekyllcodex.org/without-plugin/open-embed/
+* [添加mp3文件](https://jekyllcodex.org/without-plugin/open-embed/)
+* http://jekyllthemes.org/ [一些themes](http://jekyllthemes.org/)
