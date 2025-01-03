@@ -50,7 +50,6 @@ my %hweather = (
 
 my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();
 $year = $year + 1900;
-my $title = "title: \"$year-$months[$mon]-$mday-$hour:$min:$sec\"\n";
 
 sub add_zero {
     $_ = shift;
@@ -66,6 +65,7 @@ $hour = &add_zero($hour);
 $min  = &add_zero($min );
 $sec  = &add_zero($sec );
 print "$mday $months[$mon] $days[$wday]\n";
+my $title = "title: \"$year-$months[$mon]-$mday-$hour:$min:$sec\"\n";
 my $date  = "date: $year-$months[$mon]-$mday $hour:$min:$sec\n";
 
 =pod
